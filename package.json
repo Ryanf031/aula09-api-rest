@@ -1,0 +1,21 @@
+{
+  "name": "api-express-swagger",
+  "version": "1.0.0",
+  "description": "API REST de Tarefas feita com Express e documentada com Swagger",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "keywords": ["express", "swagger", "api", "rest"],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.19.2",
+    "swagger-jsdoc": "^6.2.8",
+    "swagger-ui-express": "^5.0.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.4"
+  }
+}
